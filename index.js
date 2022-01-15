@@ -1,15 +1,15 @@
-import React, { useState } from 'react';
+import React, {useState} from 'react';
 import ReactDOM from 'react-dom';
 import './style.css';
 
 function Hello() {
-  const [name, setName] = useState("David");
+  const [name,setName]=useState("David");
 
-  return <h1>Hello {name}.</h1>;
+  return<h1>Hello {name}.</h1>;
 }
 
-const el = <Hello />; 
+const el=<Hello />;
 ReactDOM.render(
-  el, 
+  el,
   document.getElementById('root')
 );
